@@ -80,3 +80,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias serve="python -mSimpleHTTPServer"
 alias tmux='TERM=xterm-256color tmux -2'
+
+alias pyfind='find . -name "*.py"'
+alias pygrep='grep --include "*.py"'
+alias ta='tmux attach -t'
+alias ts='tmux new-session -s'
+alias tl='tmux list-sessions'
+alias tksv='tmux kill-server'
+alias tkss='tmux kill-session -t'
+alias serve="python -mSimpleHTTPServer"
+alias ll='ls -lh --time-style long-iso'
